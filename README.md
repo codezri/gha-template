@@ -1,6 +1,8 @@
 # gha-template
 This project offers a simple, easily extendable GitHub Actions template that you can use to generate manual and nightly releases for any GitHub project. Neutralinojs uses this template for its framework, client library, and CLI release automation.
 
+This repository itself uses the `gha-template` for release automation!
+
 ## What's included?
 - Manual and nightly releases
 - Release note generation using [ReleaseZri](https://github.com/codezri/releasezri)
