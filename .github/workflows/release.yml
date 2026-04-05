@@ -100,12 +100,12 @@ jobs:
       run: |
           if [[ "$VERSION" != "nightly" ]]; then
             gh release create $VERSION_WITH_V \
-              ./bin/neutralinojs-${VERSION_WITH_V}.zip \
+              ./build/myproject-${VERSION_WITH_V}.zip \
               --title "MyProject $VERSION_WITH_V released!" \
               --notes-file .tmprz/release_notes.md
           else
             gh release create nightly \
-              ./bin/neutralinojs-nightly.zip \
+              ./build/myproject-nightly.zip \
               --title "MyProject nightly release" \
               --notes-file .tmprz/release_notes.md \
               --prerelease
