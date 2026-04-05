@@ -5,4 +5,6 @@ the next release. Once the changes are released,
 rename `Unreleased` topic with the new version tag. Finally, create a new `Unreleased` topic for future changes.
 
 ## Unreleased
+
+## v1.0.0
 - This is the first release.
