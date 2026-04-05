@@ -4,7 +4,6 @@ This project offers a simple, easily extendable GitHub Actions template that you
 ## What's included?
 - Manual and nightly releases
 - Release note generation using [ReleaseZri](https://github.com/codezri/releasezri)
-- Multiplatform build matrix setup
 - Git branching and tagging for releases
 - Automatic pull requests for changelog updates
 - Discord announcement
