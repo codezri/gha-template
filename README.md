@@ -69,7 +69,7 @@ jobs:
     - name: Checkout 
       uses: actions/checkout@v6
         
-    - name: Download Linux build artifacts 
+    - name: Download artifacts 
       uses: actions/download-artifact@v8
       with:
         name: artifacts
