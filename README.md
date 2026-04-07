@@ -4,11 +4,11 @@ This project offers a simple, easily extendable GitHub Actions template that you
 This repository itself uses the `gha-template` for release automation!
 
 ## What's included?
-- Manual and nightly releases
+- Manual and automatic nightly releases
 - Release note generation using [ReleaseZri](https://github.com/codezri/releasezri)
 - Git branching and tagging for releases
 - Automatic pull requests for changelog updates
-- Discord announcement
+- Discord announcements
 
 ## Template
 
